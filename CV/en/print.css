@@ -1,0 +1,50 @@
+@media print {
+    @page { size: A4; margin: 0; }
+    body { margin: 0.8cm; }
+
+    #mainMenu {
+        display: none;
+    }
+    #btnReturnCV {
+        display: none;
+    }
+    #btnReturnPresCV {
+        display: none;
+    }
+    #burgerPresentation {
+        display: none;
+    }
+    #burgerMenuCV {
+        display: none;
+    }
+    #presentationCV {
+        width: 33%;
+        float: left;
+    }
+    #global {
+        width: 66%;
+        float: right;
+    }
+    #competences {
+        width: 66%;
+        float: right;
+    }
+    .breakPage {
+        page-break-before: always;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,169 @@
+<!doctype html />
+<html lang="fr">
+	<head>
+
+		<title>Projets/Expériences Valentin Charbonneau</title>
+		<meta charset = "UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Projets et expériences réalisés par Valentin Charbonneau, étudiant en BTS SIO au lycée Fulbert de Chartres, cherchant un stage en développement dans le cadre de cette formation.
+                                             - un labyrinthe à génération procédurale en python - l'éxpérience auquise en machine learning notamment en utilisant Tensorflow 2.0
+                                             - un script Bash Shell surveillant les attributs S.M.A.R.T. des disques durs pour prévenir les pannes - la programmation de l'exécution de script Bash Shell au démarrage de l'ordinateur avec systemd
+                                             - l'utilisation de Nodejs et de plusieurs frameworks en javascript - l'expérience acquise en C# au cours de la formation BTS SIO actuellement suivie." />
+        <link rel="shortcut icon" href="../img/logo.ico" />
+		<link rel="stylesheet" href="../style.css" />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap-grid.min.css" rel="stylesheet">
+
+	</head>
+    <body>
+        <div>
+            <a href="#" id="burgerPresentation"><img src="../img/btnMenu.png" align="left" alt="Menu Présentation" width="24" height="24" /></a>
+            <div class="row justify-content-md-center"  id="btnReturn">
+                <a href="../index.html" class="btnLienOrange">
+                    <div style="margin-top: -10px;">
+                        <p>Retour</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="presentation">
+            <iframe src="../Presentation.html" width="250" height="650" style="border: 0px;"></iframe>
+            <div class="row justify-content-md-center" style=" margin-bottom: 20px;">
+                <a href="../index.html" id="btnReturnPres" class="btnLienOrange" style="margin-top: 0px;">
+                    <div style="margin-top: -10px;">
+                        <p>Retour</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="main" class="col-10 col-sm-10 col-md-7 col-lg-8 col-xl-8" style="float: left;">
+            <h3 class="topM">Projets</h3>
+                <div style="margin-left: 25px; margin-top: 25px;">
+                    <p><a href="#Python" class="lien" />Python</a></p>
+                    <p><a href="#ML" class="lien" />Machine learning</a></p>
+                    <p><a href="#SH" class="lien" />Bash Shell</a></p>
+                    <p><a href="#Node" class="lien" />Nodejs</a></p>
+                    <p><a href="#CS" class="lien" />C#</a></p>
+                </div>
+
+            <h3 id="Python" style="margin-top: 50px; font-size: 30px;">Python</h3>
+                <div style="margin-left: 15px" id="divPython">
+                    <h4 style="margin-top: 15px;">Labyrinthe à génération procédurale</h4>
+                        <div class="projectBlock">
+                            <p>
+                                Ce projet consiste en la création d'un jeu de labyrinthe à génération procédurale, en utilisant la bibliothèque Tkinter,
+                                avec différents modes de jeux et difficultés, enregistrant des scores et paramétrages dans des fichiers textes.
+                            </p>
+                            <p align="center"><img src="../img/maze.png" id="mazeImg" alt="Illustration du labyrinthe" style="width: 638px; height: 340px;"/></p>
+                            <p>
+                                Ce programme est le premier projet d'envergure que j'ai réalisé, au cours du quel j'ai découvert
+                                les notions fondamentales de boucle événementielle, de programmation orientée objet, de threads, ...
+                            </p>
+                            <p>
+                                Ce projet comporte donc :
+                                <p style="margin-left: 5px; margin-top: -10px;"> - Différents modes de difficultés, faisant varier la taille du labyrinthe</p>
+                                <p style="margin-left: 5px; margin-top: -10px;"> - Un système de clef pour dévérouiller la sortie</p>
+                                <p style="margin-left: 5px; margin-top: -10px;"> - Des pièges dans le labyrinthe pouvant éliminer le joueur</p>
+                                <p style="margin-left: 5px; margin-top: -10px;"> - Un mode de jeu avec un score qui sera enregistré dans un fichier, ainsi qu'un menu affichant les meilleurs scores</p>
+                                <p style="margin-left: 5px; margin-top: -10px;"> - Un menu options, permettant de configurer les contrôles du personnage et de choisir la résolution de la fenêtre</p>
+                            </p>
+                            <a href="Rapport_Labyrinthe.pdf" target="_blank" class="lien" style="font-size: 17px;">Voir le compte rendu complet</a>
+                        </div>
+                </div>
+                
+
+            <h3 id="ML" style="margin-top: 55px;">Machine learning</h3>
+                <div style="margin-left: 15px">
+                    <h4 style="margin-top: 15px;">Machine learning fondamental</h4>
+                        <div class="projectBlock">
+                            <p>
+                                J'ai débuté le machine learning en apprennant les concepts essentiels, tels que la forme d'un réseau de perceptrons classique
+                                ou la rétropropagation du gradient.
+                            </p>
+                            <p>
+                                Le premier réseau que j'ai réalisé était un simple réseau de perceptrons classique, avec 2 neurones en entrée, 3 neurones sur une couche cachée, 
+                                et 1 neurone de sortie. Le réseau devait prédire une sortie en fonction des deux paramètres en entrée. Ces valeurs ne correspondaient à rien, 
+                                l'objectif était simplement de réaliser un réseau de neurones sans framework capable de réaliser des prédictions correctes.
+                            </p>
+                            <p>
+                                Ce réseau de neurones est donc simplement constitué de plusieurs matrices. Nous avons une matrice par couche de neurones, enregistrant les valeurs de chaque neurone,
+                                puis des matrices représentant les synapses : les connexions entre les couches de neurones. Les synapses comportent les poids : les coefficiants multiplicateurs
+                                utilisés pour réaliser la prédiction.
+                            </p>
+                            <p>
+                                Par la suite j'ai dû m'intéresser aux concepts mathématiques de la descente de gradient, et la rétropropagation du gradient qui en découle.
+                                C'est cette dernière méthode qui va nous permettre de recalculer la valeur des poids pour réaliser une prédiction plus juste.
+                                C'est ainsi que se déroule l'entraînement : le réseau de neurones réalise une prédiction, nous appliquons ensuite la rétropropagation du gradient,
+                                en utilisant la différence entre ce qu'il aurait du prédire et ce qu'il a prédit, pour modifier les poids de sorte que la prochaine prédiction soit plus juste.
+                            </p>
+                        </div>
+
+                    <h4 style="margin-top: 45px;">Utilisation de Tensorflow</h4>
+                        <div class="projectBlock">
+                            <p>
+                                Par la suite j'ai décidé de continuer à en apprendre plus sur le machine learning en utilisant le framework Tensorflow 2.0 développé par Google.
+                            </p>
+                            <p>
+                                En utilisant ce framework j'ai donc manipulé de nouveau des réseaux de perceptrons classiques, mais aussi des réseaux convolutifs pour la reconnaissance d'images.
+                                J'ai également manipulé des réseaux réccurents et GAN, générant du contenu, mais je n'ai pas encore obtenu de résultats probants.
+                                Pour entraîner les réseaux, toutes ces expériences ont été réalisées en utilisant des bases de données telles que MNIST,
+                                ou des bases de données que j'ai moi-même créées.
+                            </p>
+                        </div>
+                </div>
+
+            <h3 id="SH" style="margin-top: 55px;">Bash Shell</h3>
+                <div style="margin-left: 15px">
+                    <h4 style="margin-top: 15px;">Programme de surveillance de l'état de santé des disques durs</h4>
+                        <div class="projectBlock">
+                            <p>
+                                Dans l'objectif de prévenir les défaillances des disques durs d'un ordinateur tournant sous Linux Mint, j'ai créé mon premier projet Bash Shell.
+                            </p><p>
+                                Ce projet utilise le framework Smartmontools. Via ce framework et une analyse syntaxique réalisée pour extraire les informations ciblées,
+                                il est capable de surveiller les attributs S.M.A.R.T. des disques durs de l'ordinateur.
+                                Il réalise un compte-rendu hebdomadaire sur l'état des disques durs, qu'il m'envoie par e-mail, et me prévient, toujours par e-mail, si un disque dur est défectueux.
+                            </p>
+                            <p>
+                                L'éxecution de ce script est programmée pour être quotidienne via le CRON.
+                            </p>
+                        </div>
+
+                    <h4 style="margin-top: 45px;">Exécution d'un script au démarrage du système avec systemd</h4>
+                        <div class="projectBlock">
+                            <p>
+                                Sur une autre machine, tournant sous Linux Mint LMDE, j'ai dû programmer le lancement d'un script Bash Shell au démarrage de l'ordinateur.
+                                C'est ainsi que j'ai appris les différents niveaux de démarrage de Linux, ainsi qu'à me servir de systemd, le programme permettant de démarrer les services au démarrage de l'ordinateur.
+                                J'ai donc pu par la suite programmer l'exécution de mes scripts au démarrage de l'ordinateur, qui démarre en mode graphique, donc au niveau 5.
+                            </p>
+                        </div>
+                </div>
+
+            <h3 id="Node" style="margin-top: 55px;">Nodejs</h3>
+                <div class="projectBlock">
+                    <p>
+                        J'ai développé en javascript, mais principalement en utilisant l'interpréteur Nodejs.
+                    </p>
+                    <p>
+                        J'ai ainsi codé en javascript en utilisant le framework discord.js pour développer des bots discord destinés à un usage personnel.<br/>
+                        J'ai également utilisé une bibliothèque permettant d'envoyer des requêtes SQL à un serveur MySQL, me permettant d'en administrer un depuis
+                        un script, et d'avoir la base de données dont j'avais besoin.<br/>
+                        J'ai aussi commencé à me servir du framework Selenium, notamment pour automatiser des tâches en ligne.
+                    </p>
+                </div>
+
+            <h3 id="CS" style="margin-top: 55px;">C#</h3>
+                <div class="projectBlock">
+                    <p>
+                        J'apprends à développer en C# dans le cadre de ma formation en BTS SIO.
+                    </p>
+                    <p>
+                        Ainsi j'ai d'ores et déjà réalisé un jeu de BlackJack en interface graphique, en utilisant le framework .NET et Visual Studio 2019.
+                    </p>
+                </div>
+
+        </div>
+        <script src="../script.js"></script>
+        <script src="Projects.js"></script>
+    </body>
+</html>

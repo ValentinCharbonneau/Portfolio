@@ -1,0 +1,393 @@
+@media screen and (max-width: 767px) {
+    #burgerPresentation {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        width: 10px;
+        height: 50px;
+        border: 0px;
+        background-color: white;
+        float: left;
+        width: 250;
+        resize: none;
+    }
+    #burgerMenuCV {
+        display: none;
+    }
+    #btnReturnPres {
+        display: none;
+    }
+    #btnReturn {
+        float: right;
+        width: 100px;
+        height: 50px;
+        margin-right: 20px;
+        margin-left: -500px;
+    }
+    #btnReturnPresCV {
+        display: none;
+    }
+    #btnReturnCV {
+        float: right;
+        width: 100px;
+        height: 50px;
+        margin-right: 20px;
+        margin-left: -500px;
+    }
+    #presentation {
+        display: none;
+    }
+    #presentationCV {
+        float: left;
+        margin-top: 50px;
+        margin-left: -270px;
+    }
+    #competences {
+        display: none;
+    }
+    #experiences {
+        display: none;
+    }
+    #formations {
+        display: none;
+    }
+    #mainMenu {
+        display: none;
+    }
+    #contact {
+        margin-top: -25px;
+    }
+    #main {
+        float: left;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .topM {
+        margin-top: -20px;
+    }
+} @media screen and (min-width: 576px) and (max-width: 767px) {
+    #framPres {
+        float: left;
+    }
+    #divPres {
+        margin-top: 20px;
+    }
+} @media screen and (min-width: 768px) and (max-width: 991px) {
+    #burgerPresentation {
+        display: none;
+    }
+    #burgerMenuCV {
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        width: 10px;
+        height: 50px;
+        border: 0px;
+        background-color: white;
+        float: left;
+        width: 250;
+        resize: none;
+    }
+    #btnReturnPres {
+        margin-top: 20px;
+        margin-left: -50px;
+        width: 100px;
+        height: 50px;
+    }
+    #btnReturn {
+        display: none;
+    }
+    #btnReturnPresCV {
+        display: none;
+    }
+    #btnReturnCV {
+        float: right;
+        width: 100px;
+        height: 50px;
+        margin-right: 20px;
+        margin-left: -500px;
+    }
+    #presentation {
+        float: left;
+        margin-top: 0px;
+    }
+    #presentationCV {
+        display: none;
+    }
+    #global {
+        float: left;
+        margin-top: 50px;
+        margin-left: -250px;
+    }
+    #competences {
+        float: right;
+        margin: 10px;
+        margin-top: 60px;
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    #experiences {
+        margin-top: 18px;
+    }
+    #formations {
+        margin-top: 50px;
+    }
+    #mainMenu {
+        display: none;
+    }
+    #main {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .topM {
+        margin-top: 0px;
+    }
+} @media screen and (min-width: 992px) {
+    #burgerPresentation {
+        display: none;
+    }
+    #burgerMenuCV {
+        display: none;
+    }
+    #btnReturnPres {
+        margin-top: 20px;
+        margin-left: -50px;
+        width: 100px;
+        height: 50px;
+    }
+    #btnReturn {
+        display: none;
+    }
+    #btnReturnPresCV {
+        margin-top: 20px;
+        margin-left: -50px;
+        width: 100px;
+        height: 50px;
+    }
+    #btnReturnCV {
+        display: none;
+    }
+    #presentation {
+        float: left;
+        margin-top: 0px;
+    }
+    #presentationCV {
+        float: left;
+    }
+    #global {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    #competences {
+        float: right;
+        margin: 10px;
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-left: -10px;
+    }
+    #formations {
+        margin-top: 50px;
+    }
+    #mainMenu {
+        display: none;
+    }
+    #main {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .topM {
+        margin-top: 0px;
+    }
+} @media screen and (min-width: 1200px) and (max-width: 1400px) {
+    #global {
+        margin-left: 50px;
+    }
+}
+
+
+
+#presentationAccueil {
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+}
+#theme {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: normal;
+    color: #ff4800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.perso {
+    font-weight: normal;
+}
+.centre {
+    margin-top: 5px;
+}
+.text {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.dateFormation {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.formation {
+    margin-bottom: 2px;
+}
+.liste {
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.listeComp {
+    margin-top: 15px;
+}
+.lien {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ef3800;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.lien:hover {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #8f0800;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.lienContact {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ef3800;
+    text-decoration: none;
+}
+.lienContact:hover {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8f0800;
+    text-decoration: none;
+}
+.lienMore {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ef3800;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.lienMore:hover {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8f0800;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.btnLienOrange {
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ef3800;
+    background-color: #fff;
+    margin-left: 20px;
+    height: 100%;
+    transition: all 1s ease-out;
+    border-color: #ef3800;
+    border-width: 2px;
+    border-style: solid;
+}
+.btnLienOrange:hover {
+    color: #fff;
+    background-color: #ef3800;
+}
+.btnLienWhite {
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    background-color: #ef3800;
+    margin-left: 20px;
+    height: 100%;
+    transition: all 1s ease-out;
+    border-color: #ef3800;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.btnLienWhite:hover {
+    color: #ef3800;
+    background-color: #fff;
+}
+.projectBlock {
+    margin-left: 20px;
+}
+h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    border-top: 5px;
+    margin-bottom: 5px;
+    color: #ff4800;
+}
+h4 {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+p {
+    font-family: Tahoma;
+}
+ul {
+    font-family: Tahoma;
+    margin-top: 5px;
+}
